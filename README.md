@@ -6,6 +6,7 @@ Manasvi Pundir
 
 Easy in Implementation. 
 No run time permissions required. 
+Image rotation handling using exif interface.
 Allow Cropping image.
 Compress image.
 No manually handling of image path.
