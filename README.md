@@ -60,7 +60,7 @@ public void onRequestPermissionsResult(int requestCode, @NonNull String[] permis
 protected void onActivityResult(int requestCode, int resultCode, Intent data) {
   super.onActivityResult(requestCode, resultCode, data);
   if (callBackManager != null) {
-    callBackManager.onActivityResult(requestCode, resultCode, data);
+    callBackManager.onActivityResult(requestCode, resultCode, data); 
   }
 }
 
