@@ -24,7 +24,7 @@ allprojects {
 }
 
 dependencies {
-        compile 'com.github.himangipatel:ImagePickerUtil:0.1.8'
+        implementation 'com.github.manasvii:image_picker_util:0.1.1'
 }
 
 # Usage
@@ -49,7 +49,7 @@ dependencies {
 3. Call below lines on onRequestPermissionsResult and onActivityResult
 
  @Override
-public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+ public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
   super.onRequestPermissionsResult(requestCode, permissions, grantResults);
   if (callBackManager != null) {
     callBackManager.onRequestPermissionsResult(requestCode, permissions, grantResults);
